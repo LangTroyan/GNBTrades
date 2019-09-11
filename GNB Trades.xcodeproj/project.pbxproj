@@ -8,20 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		3C0E56DE2328601800E9D401 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0E56DD2328601800E9D401 /* AppDelegate.swift */; };
-		3C0E56E02328601800E9D401 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0E56DF2328601800E9D401 /* ViewController.swift */; };
+		3C0E56E02328601800E9D401 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0E56DF2328601800E9D401 /* TransactionsViewController.swift */; };
 		3C0E56E32328601800E9D401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C0E56E12328601800E9D401 /* Main.storyboard */; };
 		3C0E56E52328601B00E9D401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0E56E42328601B00E9D401 /* Assets.xcassets */; };
 		3C0E56E82328601B00E9D401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C0E56E62328601B00E9D401 /* LaunchScreen.storyboard */; };
+		3C0E56F6232864CF00E9D401 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0E56F5232864CF00E9D401 /* Transaction.swift */; };
+		3C0E56F8232868A200E9D401 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0E56F7232868A200E9D401 /* DetailsViewController.swift */; };
+		3C0E56FC2328693700E9D401 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0E56FB2328693700E9D401 /* TransactionCell.swift */; };
+		3C0E570123286DE200E9D401 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0E570023286DE200E9D401 /* APIService.swift */; };
+		3C0E57032328734C00E9D401 /* UIViewController+Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0E57022328734C00E9D401 /* UIViewController+Spinner.swift */; };
+		3C0E5705232873F200E9D401 /* TransactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0E5704232873F200E9D401 /* TransactionsViewModel.swift */; };
+		3C0E57072328933100E9D401 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0E57062328933100E9D401 /* UIViewController+Alert.swift */; };
+		3C0E5709232898E500E9D401 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0E5708232898E500E9D401 /* MenuViewController.swift */; };
+		3C0E570B2328F68900E9D401 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0E570A2328F68900E9D401 /* DetailsViewModel.swift */; };
+		3C0E570D2328F76D00E9D401 /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0E570C2328F76D00E9D401 /* Rate.swift */; };
+		3C0E570F2328F82400E9D401 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0E570E2328F82400E9D401 /* Currency.swift */; };
+		3C0E57112329158400E9D401 /* RateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0E57102329158400E9D401 /* RateCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C0E56DA2328601800E9D401 /* GNB Trades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GNB Trades.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0E56DD2328601800E9D401 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C0E56DF2328601800E9D401 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C0E56DF2328601800E9D401 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		3C0E56E22328601800E9D401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C0E56E42328601B00E9D401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C0E56E72328601B00E9D401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C0E56E92328601B00E9D401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C0E56F5232864CF00E9D401 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		3C0E56F7232868A200E9D401 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		3C0E56FB2328693700E9D401 /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		3C0E570023286DE200E9D401 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		3C0E57022328734C00E9D401 /* UIViewController+Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Spinner.swift"; sourceTree = "<group>"; };
+		3C0E5704232873F200E9D401 /* TransactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewModel.swift; sourceTree = "<group>"; };
+		3C0E57062328933100E9D401 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		3C0E5708232898E500E9D401 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3C0E570A2328F68900E9D401 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		3C0E570C2328F76D00E9D401 /* Rate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
+		3C0E570E2328F82400E9D401 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		3C0E57102329158400E9D401 /* RateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +78,114 @@
 		3C0E56DC2328601800E9D401 /* GNB Trades */ = {
 			isa = PBXGroup;
 			children = (
-				3C0E56DD2328601800E9D401 /* AppDelegate.swift */,
-				3C0E56DF2328601800E9D401 /* ViewController.swift */,
-				3C0E56E12328601800E9D401 /* Main.storyboard */,
-				3C0E56E42328601B00E9D401 /* Assets.xcassets */,
-				3C0E56E62328601B00E9D401 /* LaunchScreen.storyboard */,
-				3C0E56E92328601B00E9D401 /* Info.plist */,
+				3C0E56EF2328602D00E9D401 /* Application */,
+				3C0E56F4232864B900E9D401 /* Models */,
+				3C0E56F32328605B00E9D401 /* Resources */,
+				3C0E56F02328603500E9D401 /* Storyboards */,
+				3C0E56FD23286DA400E9D401 /* Utils */,
+				3C0E56F12328604200E9D401 /* ViewControllers */,
+				3C0E56F22328605200E9D401 /* ViewModels */,
+				3C0E56F92328690700E9D401 /* Views */,
 			);
 			path = "GNB Trades";
+			sourceTree = "<group>";
+		};
+		3C0E56EF2328602D00E9D401 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3C0E56DD2328601800E9D401 /* AppDelegate.swift */,
+				3C0E56E92328601B00E9D401 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3C0E56F02328603500E9D401 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3C0E56E12328601800E9D401 /* Main.storyboard */,
+				3C0E56E62328601B00E9D401 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3C0E56F12328604200E9D401 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C0E56DF2328601800E9D401 /* TransactionsViewController.swift */,
+				3C0E56F7232868A200E9D401 /* DetailsViewController.swift */,
+				3C0E5708232898E500E9D401 /* MenuViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3C0E56F22328605200E9D401 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3C0E5704232873F200E9D401 /* TransactionsViewModel.swift */,
+				3C0E570A2328F68900E9D401 /* DetailsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3C0E56F32328605B00E9D401 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C0E56E42328601B00E9D401 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C0E56F4232864B900E9D401 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C0E570E2328F82400E9D401 /* Currency.swift */,
+				3C0E570C2328F76D00E9D401 /* Rate.swift */,
+				3C0E56F5232864CF00E9D401 /* Transaction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C0E56F92328690700E9D401 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C0E56FA2328691100E9D401 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3C0E56FA2328691100E9D401 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3C0E56FB2328693700E9D401 /* TransactionCell.swift */,
+				3C0E57102329158400E9D401 /* RateCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3C0E56FD23286DA400E9D401 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3C0E56FF23286DB100E9D401 /* Networking */,
+				3C0E56FE23286DA900E9D401 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3C0E56FE23286DA900E9D401 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3C0E57022328734C00E9D401 /* UIViewController+Spinner.swift */,
+				3C0E57062328933100E9D401 /* UIViewController+Alert.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3C0E56FF23286DB100E9D401 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3C0E570023286DE200E9D401 /* APIService.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +259,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C0E56E02328601800E9D401 /* ViewController.swift in Sources */,
+				3C0E57072328933100E9D401 /* UIViewController+Alert.swift in Sources */,
+				3C0E5709232898E500E9D401 /* MenuViewController.swift in Sources */,
+				3C0E56E02328601800E9D401 /* TransactionsViewController.swift in Sources */,
 				3C0E56DE2328601800E9D401 /* AppDelegate.swift in Sources */,
+				3C0E56F6232864CF00E9D401 /* Transaction.swift in Sources */,
+				3C0E5705232873F200E9D401 /* TransactionsViewModel.swift in Sources */,
+				3C0E56FC2328693700E9D401 /* TransactionCell.swift in Sources */,
+				3C0E57112329158400E9D401 /* RateCell.swift in Sources */,
+				3C0E570B2328F68900E9D401 /* DetailsViewModel.swift in Sources */,
+				3C0E570F2328F82400E9D401 /* Currency.swift in Sources */,
+				3C0E570123286DE200E9D401 /* APIService.swift in Sources */,
+				3C0E570D2328F76D00E9D401 /* Rate.swift in Sources */,
+				3C0E57032328734C00E9D401 /* UIViewController+Spinner.swift in Sources */,
+				3C0E56F8232868A200E9D401 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +420,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45HR8YZ3Y2;
-				INFOPLIST_FILE = "GNB Trades/Info.plist";
+				INFOPLIST_FILE = "GNB Trades/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +428,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.GNB-Trades";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +438,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45HR8YZ3Y2;
-				INFOPLIST_FILE = "GNB Trades/Info.plist";
+				INFOPLIST_FILE = "GNB Trades/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +446,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.GNB-Trades";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
